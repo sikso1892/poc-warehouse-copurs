@@ -1,3 +1,6 @@
 [submodule "poc-iac-bigquery-corpus"]
 	path = poc-iac-bigquery-corpus
 	url = https://github.com/sikso1892/poc-iac-bigquery-corpus
+[submodule "poc-on-prem-corpus"]
+	path = poc-on-prem-corpus
+	url = git@github.com:sikso1892/poc-on-prem-corpus.git
