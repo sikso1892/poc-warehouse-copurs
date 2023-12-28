@@ -4,7 +4,7 @@ x-environment:
   build: 
     context: .
     dockerfile: ./docker/postgres.dockerfile
-    
+
   environment:
     &postgres-environment
     POSTGRES_DB: ${POSTGRES_DB}
@@ -12,8 +12,8 @@ x-environment:
     POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
   
   volumes:
-    - ./data:/var/lib/postgresql/data
-    - ./dump:/var/lib/postgresql/dump
+    - ./data/postgres:/var/lib/postgresql/data
+    - ./data/Normalization:/var/lib/postgresql/dump
     - ./scripts:/scripts
 
 services:

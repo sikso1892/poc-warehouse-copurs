@@ -1,9 +1,0 @@
-[submodule "poc-iac-bigquery-corpus"]
-	path = poc-iac-bigquery-corpus
-	url = https://github.com/sikso1892/poc-iac-bigquery-corpus
-[submodule "poc-on-prem-corpus"]
-	path = poc-on-prem-corpus
-	url = git@github.com:sikso1892/poc-on-prem-corpus.git
-[submodule "ml_corpus_se_server"]
-	path = ml_corpus_se_server
-	url = git@github.com:flitto/ml_corpus_se_server.git
