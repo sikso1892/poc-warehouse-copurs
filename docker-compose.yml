@@ -1,7 +1,10 @@
 version: '3.1'
 x-environment:
   &postgres-common
-  build: .
+  build: 
+    context: .
+    dockerfile: ./docker/postgres.dockerfile
+    
   environment:
     &postgres-environment
     POSTGRES_DB: ${POSTGRES_DB}
@@ -16,7 +19,6 @@ x-environment:
 services:
   postgres:
     <<: *postgres-common
-    build: .
     environment:
       <<: *postgres-environment
     ports:

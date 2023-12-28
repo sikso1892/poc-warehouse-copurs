@@ -1,3 +1,6 @@
+'''
+csv 파일로 부터 
+'''
 from google.cloud import bigquery
 from google.cloud.bigquery import LoadJobConfig, SourceFormat
 from google.oauth2 import service_account

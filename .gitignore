@@ -2,3 +2,4 @@ data
 config
 .python-version
 .pytest_cache
+.env
